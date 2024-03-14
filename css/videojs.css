@@ -47,22 +47,9 @@
   width: 5em !important;
 }
 
-.uploadBtn {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  gap: 5px;
-}
-
 @media screen and (max-width: 1000px) {
   .video-js {
     width: 500px;
     height: 550px;
-  }
-
-  .uploadBtn {
-    text-align: center;
-    align-items: center;
   }
 }
