@@ -1,0 +1,68 @@
+.video-js {
+  width: 800px;
+  height: 450px;
+}
+
+.vjs-control-bar {
+  background-color: transparent !important;
+}
+
+.vjs-big-play-button {
+  opacity: 0 !important;
+}
+
+.vjs-volume-control {
+  align-items: center !important;
+}
+
+.vjs-play-progress:before {
+  top: -4px !important;
+}
+
+.vjs-fullscreen-control .vjs-icon-placeholder::before {
+  line-height: 30px;
+}
+
+.vjs-progress-control .vjs-progress-holder {
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.25);
+  height: 1px;
+}
+
+.vjs-progress-control:hover .vjs-play-progress:before {
+  top: -7px !important;
+}
+
+.vjs-volume-panel {
+  order: 4;
+  display: flex;
+  align-items: center;
+}
+
+.vjs-fullscreen-control {
+  order: 5;
+}
+
+.vjs-play-control {
+  width: 5em !important;
+}
+
+.uploadBtn {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .video-js {
+    width: 500px;
+    height: 550px;
+  }
+
+  .uploadBtn {
+    text-align: center;
+    align-items: center;
+  }
+}
